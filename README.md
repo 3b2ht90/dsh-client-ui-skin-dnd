@@ -1,4 +1,4 @@
-﻿# 龙与地下城 · DSH 皮肤 (Dungeons & Dragons skin for DeepSeek Harness)
+# 龙与地下城 · DSH 皮肤 (Dungeons & Dragons skin for DeepSeek Harness)
 
 一个 D&D 奇幻风格的 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 桌面端皮肤。
 
@@ -19,7 +19,7 @@
 ### 方式一：命令行安装
 
 ```sh
-dsh plugin --profile web-desktop add github:<你的GitHub用户名>/dsh-client-ui-skin-dnd
+dsh plugin --profile web-desktop add github:3b2ht90/dsh-client-ui-skin-dnd
 ```
 
 ### 方式二：手动安装（桌面端内置皮肤方式）
