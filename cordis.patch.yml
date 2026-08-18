@@ -1,0 +1,7 @@
+# dsh-client-ui-skin-dnd profile patch layer — one loader entry for the skin
+# package. The browser half is picked up by dsh-client-modules through the
+# package's dsh.client declaration; the row id matches skin.json wiring.id
+# (ui-skin-dnd) so the skin-switch center can manage it.
+- insert:
+    - id: ui-skin-dnd
+      name: '@dsh-external/dsh-client-ui-skin-dnd'

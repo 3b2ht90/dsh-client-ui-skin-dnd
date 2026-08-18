@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@dsh-external/dsh-client-ui-skin-dnd",
   "version": "0.1.0",
   "description": "Hot-pluggable Dungeons & Dragons skin with parchment/dungeon backdrops, a gpt-image D20 dice send button and fantasy chrome for the dsh web GUI",
@@ -10,6 +10,9 @@
     "./package.json": "./package.json"
   },
   "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "client": {
       "inject": [],
       "platform": "web"
