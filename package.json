@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "@dsh-external/dsh-client-ui-skin-dnd",
   "version": "0.1.0",
   "description": "Hot-pluggable Dungeons & Dragons skin with parchment/dungeon backdrops, a gpt-image D20 dice send button and fantasy chrome for the dsh web GUI",
@@ -27,7 +27,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/<your-github-username>/dsh-client-ui-skin-dnd.git"
+    "url": "https://github.com/3b2ht90/dsh-client-ui-skin-dnd.git"
   },
   "files": [
     "lib",
