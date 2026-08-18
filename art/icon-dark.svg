@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <polygon points="24,2 43,13 43,35 24,46 5,35 5,13" fill="#0d0a07" stroke="#c8912f" stroke-width="1.5"/>
+  <polygon points="24,13 34,20 34,29 24,36 14,29 14,20" fill="none" stroke="#d9a94f" stroke-width="1.4"/>
+  <path d="M24 2 L24 13 M24 36 L24 46 M43 13 L34 20 M5 13 L14 20 M43 35 L34 29 M5 35 L14 29" stroke="#d9a94f" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="24" y="30" font-size="13" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" fill="#d9a94f">20</text>
+</svg>

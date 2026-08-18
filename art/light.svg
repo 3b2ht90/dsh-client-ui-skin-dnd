@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="paper" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#faf3e2"/>
+      <stop offset="55%" stop-color="#f1ead6"/>
+      <stop offset="85%" stop-color="#e6d8b6"/>
+      <stop offset="100%" stop-color="#cdbb92"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="70%">
+      <stop offset="55%" stop-color="#28221b" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#28221b" stop-opacity="0.18"/>
+    </radialGradient>
+    <radialGradient id="warm" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d9a94f" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#d9a94f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#paper)"/>
+  <!-- faint map contour lines -->
+  <g fill="none" stroke="#cdbb92" stroke-opacity="0.5" stroke-width="2">
+    <ellipse cx="300" cy="240" rx="190" ry="120"/>
+    <ellipse cx="300" cy="240" rx="150" ry="92"/>
+    <ellipse cx="300" cy="240" rx="110" ry="64"/>
+    <ellipse cx="1620" cy="830" rx="230" ry="150"/>
+    <ellipse cx="1620" cy="830" rx="180" ry="115"/>
+    <ellipse cx="1620" cy="830" rx="130" ry="80"/>
+  </g>
+  <!-- rune ring, bottom left -->
+  <g transform="translate(170,850)" fill="none" stroke="#a3732a" stroke-opacity="0.35" stroke-width="2">
+    <circle r="78"/>
+    <circle r="58" stroke-dasharray="4 10"/>
+    <path d="M0 -78 L0 -58 M0 78 L0 58 M-78 0 L-58 0 M78 0 L58 0"/>
+    <path d="M-55 -55 L-41 -41 M55 55 L41 41 M55 -55 L41 -41 M-55 55 L-41 41"/>
+  </g>
+  <!-- large faint D20 watermark -->
+  <g transform="translate(960,520) scale(4.2)" fill="none" stroke="#a99672" stroke-opacity="0.30" stroke-width="3">
+    <polygon points="0,-88 80,-44 80,44 0,88 -80,44 -80,-44"/>
+    <polygon points="0,-44 40,-22 40,22 0,44 -40,22 -40,-22"/>
+  </g>
+  <!-- corner flourishes -->
+  <g stroke="#c8912f" stroke-opacity="0.55" fill="none" stroke-width="3">
+    <path d="M40 40 L40 120 M40 40 L120 40 M40 40 L64 64"/>
+    <path d="M1880 1040 L1880 960 M1880 1040 L1800 1040 M1880 1040 L1856 1016"/>
+  </g>
+  <rect width="1920" height="1080" fill="url(#warm)"/>
+  <rect width="1920" height="1080" fill="url(#vignette)"/>
+</svg>

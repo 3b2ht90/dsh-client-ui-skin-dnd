@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="cave" cx="50%" cy="38%" r="80%">
+      <stop offset="0%" stop-color="#201a11"/>
+      <stop offset="60%" stop-color="#141009"/>
+      <stop offset="100%" stop-color="#0a0805"/>
+    </radialGradient>
+    <radialGradient id="ember" cx="50%" cy="100%" r="60%">
+      <stop offset="0%" stop-color="#c25f3c" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#a9523a" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#a9523a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="emberCore" cx="50%" cy="94%" r="22%">
+      <stop offset="0%" stop-color="#d9774f" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d9774f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="72%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#cave)"/>
+  <!-- faint stone joints -->
+  <g stroke="#37301f" stroke-opacity="0.35" stroke-width="2" fill="none">
+    <path d="M0 260 H1920 M0 560 H1920 M0 860 H1920"/>
+    <path d="M320 0 V260 M960 0 V260 M1500 0 V260 M200 260 V560 M760 260 V560 M1280 260 V560 M520 560 V860 M1180 560 V860 M1600 560 V860"/>
+  </g>
+  <!-- rune ring, top right -->
+  <g transform="translate(1750,230)" fill="none" stroke="#c8912f" stroke-opacity="0.30" stroke-width="2">
+    <circle r="70"/>
+    <circle r="50" stroke-dasharray="3 9"/>
+    <path d="M0 -70 L0 -50 M0 70 L0 50 M-70 0 L-50 0 M70 0 L50 0"/>
+    <path d="M-49 -49 L-35 -35 M49 49 L35 35"/>
+  </g>
+  <!-- faint D20 watermark -->
+  <g transform="translate(960,430) scale(4.2)" fill="none" stroke="#837458" stroke-opacity="0.22" stroke-width="3">
+    <polygon points="0,-88 80,-44 80,44 0,88 -80,44 -80,-44"/>
+    <polygon points="0,-44 40,-22 40,22 0,44 -40,22 -40,-22"/>
+  </g>
+  <!-- dangling chains / sconce hint, left -->
+  <g stroke="#9d8c6d" stroke-opacity="0.4" stroke-width="3" fill="none">
+    <path d="M120 0 V160 M120 160 l0 14 M120 188 l0 14"/>
+    <path d="M120 202 l-10 18 M120 202 l10 18"/>
+    <circle cx="120" cy="240" r="6" fill="#c25f3c" fill-opacity="0.6" stroke="none"/>
+    <path d="M1800 0 V120"/>
+  </g>
+  <rect width="1920" height="1080" fill="url(#ember)"/>
+  <rect width="1920" height="1080" fill="url(#emberCore)"/>
+  <rect width="1920" height="1080" fill="url(#vignette)"/>
+</svg>

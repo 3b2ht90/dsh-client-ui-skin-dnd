@@ -1,0 +1,28 @@
+{
+  "id": "dnd",
+  "name": "龙与地下城",
+  "nameEn": "Dungeons & Dragons",
+  "author": "dsh-web-ui",
+  "tagline": "羊皮纸卷宗 · 地下城深境 · 龙火与秘银",
+  "description": "《龙与地下城》— 冒险者主题皮肤：亮色为泛黄羊皮纸卷宗与秘银蓝墨，暗色为幽深地牢与余烬龙火；D20 骰子徽标，暖金/赤红点缀，全套 dsh token 重映射，暗色变体为篝火余烬调。",
+  "tags": [
+    "dnd",
+    "fantasy",
+    "parchment",
+    "dungeon",
+    "dragon",
+    "rpg"
+  ],
+  "accent": "#a81f22",
+  "bodyAttr": "data-dsh-dnd",
+  "package": "@dsh-external/dsh-client-ui-skin-dnd",
+  "wiring": {
+    "id": "ui-skin-dnd",
+    "bundleWired": false
+  },
+  "preview": {
+    "light": "preview/light.png",
+    "dark": "preview/dark.png"
+  },
+  "order": 20
+}
